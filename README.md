@@ -1,5 +1,5 @@
 # Bicycle
-A Responsive Bicycle website made in Bootstrap Studio with **HTML**, **CSS**, **JavaScript (jQuery)**.
+A Responsive Bicycle website made in Bootstrap Studio with **HTML**, **CSS**, **BOOTSTRAP** , **JavaScript (jQuery)**.
 I'm adding project and making new project to widen my knowledge and to have some fun while doing it.
 
 
