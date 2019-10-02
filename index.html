@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <section class="d-flex justify-content-center between" style="background-image: url(&quot;assets/img/headerBackground.png&quot;);background-repeat: no-repeat;background-size: cover;min-height: 738px;background-position: center center;">
+    <section class="d-flex justify-content-center between" style="background-image: url(&quot;assets/img/headerBackground.png&quot;);background-repeat: no-repeat;background-size: cover;min-height: 738px;background-position: center center;flex-direction:row-reverse;">
         <nav class="navbar navbar-light navbar-expand-md d-flex justify-content-sm-end align-items-sm-end flex-lg-row justify-content-xl-end align-items-xl-center" style="height: 65px;margin-top: 36px;">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse order-2 nav" id="navcol-1">
+                <div class="collapse navbar-collapse order-2 nav show" id="navcol-1">
                     <ul class="nav navbar-nav d-flex cl-effect-12">
                         <li class="nav-item d-flex align-items-center leftest-nav dot" role="presentation"><a class="nav-link active" href="#" style="font-family: Lato, sans-serif;color: rgb(77, 73, 89);font-size: 0.9rem;font-weight: bold;">ABOUT US</a></li>
                         <li class="nav-item d-flex align-items-center" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;color: rgb(77, 73, 89);font-size: 0.9rem;font-weight: bold;">WORK</a></li>
@@ -28,10 +28,11 @@
                         <li class="nav-item d-flex align-items-center right-from-logo dot" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;color: rgb(77, 73, 89);font-size: 0.9rem;font-weight: bold;">SHOP</a></li>
                         <li class="nav-item d-flex align-items-center" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;color: rgb(77, 73, 89);font-size: 0.9rem;font-weight: bold;">CONTACT</a></li>
                     </ul>
+                    <div class="close-toggle"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
                 </div>
-                <ul class="nav navbar-nav text-nowrap d-flex flex-row order-1 order-md-2 mx-md-auto"><button data-target="#navcol-1" data-toggle="collapse" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></ul>
+                <ul class="nav navbar-nav text-nowrap d-flex flex-row order-1 order-md-2 mx-md-auto"><button class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></ul> <!--  data-target="#navcol-1" data-toggle="collapse"  goes inside nabbar-toggler class button -->
             </div>
-        </nav><img class="d-none logo-nav-collapse" src="assets/img/logo.png" style="height: 70px;margin-top: 32px;margin-right: 26px;"></section>
+        </nav><img class="d-none logo-nav-collapse" src="assets/img/logo.png" style="height: 70px;margin-top: 32px;margin-left: 26px;"></section>
     <section>
         <div class="row text-center">
             <div class="col d-xl-flex flex-column justify-content-xl-center align-items-xl-start" style="background-color: #f7f7f7;">
