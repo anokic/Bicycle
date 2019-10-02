@@ -7,6 +7,10 @@
   display: none;
 }
 
+.close-toggle {
+  display: none;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -144,13 +148,13 @@ body {
   flex-grow: 0
 }
 
-/* .nav-item.d-flex.align-items-center.leftest-nav {
+.nav-item.d-flex.align-items-center.leftest-nav {
   margin-right: 70px
 }
 
 .nav-item.d-flex.align-items-center.right-from-logo {
   margin-right: 68px
-} */
+}
 
 .dot:after {
   content: ".";
@@ -277,6 +281,7 @@ body {
   }
 
   .close-toggle {
+    display: block;
     background: transparent;
     position: absolute;
     font-size: 1.6rem;
