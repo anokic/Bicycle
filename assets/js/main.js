@@ -12,20 +12,25 @@ $(document).ready(function() {
 
     function clicks(){
 
-      if(done == false){
-        $('.nav-item')[2].remove();
-        done = true;
-      }
+
 
       $('.navbar-collapse.order-2.nav.collapse.show').toggleClass('move-nav');
       let items = $('.nav-item');
       let i = 1;
 
       for(item of items){
-        let css = 'all ' + ( i / 4) + 's ease-out';
-        $($(item)).css( {'transition' : css});
-        item.style.transition = css;
-        i++;
+        if(i >= 3){
+          let css = 'all ' + ((i - 1) / 6) + 's ease-out';
+          console.log(((i - 1) / 4));
+          $($(item)).css( {'transition' : css});
+          item.style.transition = css;
+          i++;
+        } else {
+          let css = 'all ' + ( i / 6) + 's ease-out';
+          $($(item)).css( {'transition' : css});
+          item.style.transition = css;
+          i++;
+        }
       }
 
       function toggle(){
