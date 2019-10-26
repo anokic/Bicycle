@@ -1,6 +1,6 @@
 # Bicycle
 A Responsive Bicycle website made in Bootstrap Studio with **HTML**, **CSS**, **BOOTSTRAP** , **JavaScript (jQuery)**.
-I'm adding project and making new project to widen my knowledge and to have some fun while doing it.
+I'm adding my projects and making new projects to widen my knowledge and to have some fun while doing it.
 
 Demo: http://brankoanokic.com/projects/Bycicle/index.html
 
